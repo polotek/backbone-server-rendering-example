@@ -1,0 +1,26 @@
+{
+  "name": "backbone-server-rendering-example",
+  "version": "0.0.1",
+  "description": "Quick example of server rendering with Backbone",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~3.4.6",
+    "jquery": "*",
+    "underscore": "*",
+    "backbone": "*",
+    "handlebars": "*"
+  },
+  "devDependencies": {
+    "browserify": "~2.36.0",
+    "envify": "~0.2.0",
+    "uglifyjs": "~2.3.6",
+    "watchify": "~0.4.1"
+  },
+  "scripts": {
+    "start": "browserify --insert-global-vars jQuery index.js > browser-bundle.js && node server",
+    "build": "browserify --insert-global-vars jQuery index.js > browser-bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Rogers",
+  "license": "MIT"
+}
