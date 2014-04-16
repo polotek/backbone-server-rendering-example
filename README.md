@@ -2,6 +2,8 @@
 
 The example in this repo is modeled after [this one using React](https://github.com/petehunt/react-server-rendering-example/blob/master/server.js) to render on both client and server. Setting aside the client-side benefits of React, I wanted to draw a comparison and explore the differences.
 
+I'm open to questions and comments about this. I created a space here. https://github.com/polotek/backbone-server-rendering-example/issues/1
+
 ## Usage
 Just `npm install` and then `npm start`. Then open your browser to http://localhost:4000/
 
